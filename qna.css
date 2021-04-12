@@ -1,0 +1,64 @@
+@font-face {
+    font-family: "hooutline";
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts-20-12@1.0/SDSamliphopangche_Outline.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: "hobasic";
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts-20-12@1.0/SDSamliphopangche_Basic.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+.status-bar {
+    height: 100%;
+    background: rgba(161, 127, 255, 0.8);
+    border-radius: 20px;
+}
+.status{
+    margin: 0 auto;
+    margin-top: 1.5em;
+    width: 75%;
+    height: 15px;
+    border: 3px solid #ddd;
+    border-radius: 20px;
+    background: #fff;
+}
+
+#qna{
+    display:none;
+    background: #f2f2f2;
+    text-align: center;
+    font-weight : bold;
+    font-family: "hooutline";
+}
+.qbox{
+    font-size : 1.2rem;
+    margin-block-start: 2em;
+    margin-block-end : 2em;
+    margin-inline-start : 0px;
+    margin-inline-end : 0px;
+    white-space: pre-line;
+    line-height: 140%;
+}
+
+.answerlist{
+    margin:0 auto;
+    font-family: "hobasic";
+    font-size : 1rem;
+    height: 8em;
+    word-break: keep-all;;
+    width:19rem;
+    font-weight: bolder;
+    border-radius: 20px;
+    display: block;
+    margin-top: 0.9em;
+    border-color: black;
+    cursor: pointer;
+    background-color: #f8dade;
+    line-height: 140%;
+}
+.button{
+    margin:0.9em;
+    width: 90%;
+}
