@@ -1,0 +1,36 @@
+@font-face {
+    font-family: "hooutline";
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts-20-12@1.0/SDSamliphopangche_Outline.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: "hobasic";
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts-20-12@1.0/SDSamliphopangche_Basic.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+#result{
+    display: none;
+    background-color: #f2f2f2;
+    text-align: center;
+    font-size: 26px;
+    font-family: "hooutline";
+  }
+  .resultname{
+    font-family: "hooutline";
+    font-size: 35px;
+  }
+  
+.resultdesc{
+    font-size: 80px;
+  }
+
+#resultimg img{
+    margin: auto;
+    max-width: 550px;
+    height: auto;
+    width: 100%;
+  }
